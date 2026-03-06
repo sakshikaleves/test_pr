@@ -92,3 +92,5 @@ def _extract_one_function(node, code: str) -> dict:
         "body": code[node.start_byte:node.end_byte],
     }
 
+def sum (a,b):
+    return a+b 
